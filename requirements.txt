@@ -6,7 +6,7 @@ gunicorn==19.9.0
 newrelic==4.12.0.113
 
 # For the persistence stores
-psycopg2-binary==2.7.7
+psycopg2-binary==2.8
 dj-database-url==0.5.0
 
 # Model Tools
@@ -19,7 +19,7 @@ Markdown==3.0.1
 django-filter==2.1.0
 
 # Developer Tools
-ipdb==0.11
+ipdb
 ipython==7.2.0
 mkdocs==1.0.4
 flake8==3.7.5
@@ -28,7 +28,6 @@ flake8==3.7.5
 mock==2.0.0
 factory-boy==2.11.1
 django-nose==1.4.6
-nose-progressive==1.5.2
 coverage==4.5.2
 
 # Static and Media Storage
