@@ -28,6 +28,7 @@ services:
                ./manage.py runserver 0.0.0.0:8000"
     volumes:
       - ./:/code
+    working_dir: /code   # ✅ Add this line
     ports:
       - "8000:8000"
     depends_on:
